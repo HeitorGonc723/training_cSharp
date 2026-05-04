@@ -1,53 +1,72 @@
 ﻿//Variaveis
-string nome = "Heitor";
-int idade = 23;
-double altura = 1.76;
-Console.WriteLine("Nome: {0}", nome);
-Console.WriteLine("Idade: {0}", idade); 
-Console.WriteLine("Altura: {0}", altura);
-
-
+// string nome = "Heitor";
+// int idade = 23;
+// double altura = 1.76;
+// Console.WriteLine("Nome: {0}", nome);
+// Console.WriteLine("Idade: {0}", idade); 
+// Console.WriteLine("Altura: {0}", altura);
 
 
 //Variáveis e Operadores
 // int valor1,valor2;
 // valor1 = 10;
 // valor2 = 2;
-
 // Console.WriteLine("Soma: {0}", valor1 + valor2);
 // Console.WriteLine("Subtração: {0}", valor1 - valor2);
 // Console.WriteLine("Multiplicação: {0}", valor1 * valor2);
 // Console.WriteLine("Divisão: {0}", valor1 / valor2);
 
+
 //Operadores de Atribuição
-double a = 10;
+// double a = 10;
+// Console.WriteLine("Resultado: {0}", a);
+// a+=3;
+// Console.WriteLine("Resultado: {0}", a);
+// a-=3;
+// Console.WriteLine("Resultado: {0}", a);
+// a*=3;
+// Console.WriteLine("Resultado: {0}", a);
+// a/=3;
+// Console.WriteLine("Resultado: {0}", a);
+// a%=3;
+// Console.WriteLine("Resultado: {0}", a);
+// a++;
+// Console.WriteLine("Resultado: {0}", a);
+// a--;
+// Console.WriteLine("Resultado: {0}", a);
 
-Console.WriteLine("Resultado: {0}", a);
+//Operadores de Comparação
+int a = 5;
+int b = 5;
 
-a+=3;
+bool Iguais= a == b;
 
-Console.WriteLine("Resultado: {0}", a);
+Console.WriteLine("São iguais? {0}", Iguais);
 
-a-=3;
+int c = 5;
+int d = 4;
 
-Console.WriteLine("Resultado: {0}", a);
+bool Iguais2= c == d;
 
-a*=3;
+Console.WriteLine("São iguais? {0}", Iguais2);
 
-Console.WriteLine("Resultado: {0}", a);
+int e = 5;
+int f = 4;
 
-a/=3;
+bool maior = e > f;
 
-Console.WriteLine("Resultado: {0}", a);
+Console.WriteLine("E é maior que F? {0}", maior);
 
-a%=3;
+int g = 5;
+int h = 4;
 
-Console.WriteLine("Resultado: {0}", a);
+bool menor = g < h;
 
-a++;
+Console.WriteLine("G é menor que H? {0}", menor);
 
-Console.WriteLine("Resultado: {0}", a);
+int i = 5;
+int j = 4;
 
-a--;
+bool diferente = i != j;
 
-Console.WriteLine("Resultado: {0}", a);
+Console.WriteLine("I é diferente de J? {0}", diferente);
