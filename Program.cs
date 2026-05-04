@@ -95,26 +95,58 @@
 // Console.WriteLine("Acesso permitido? {0}", acessoPermitido3);
 
 
-//Estruturas de Controle
+//Estruturas de Controle IF
 
-int idade = 7;
-bool permissaoPais = true;
+// int idade = 7;
+// bool permissaoPais = true;
 
-if(idade==0){
-    Console.WriteLine("Idade inválida!");
+// if(idade==0){
+//     Console.WriteLine("Idade inválida!");
+// }
+// else if(idade>=18){
+//     Console.WriteLine("Acesso permitido!");
+// }
+// else{
+//     if(permissaoPais){
+//         Console.WriteLine("Acesso permitido com permissão dos pais.");
+//     }
+//     else{
+//         Console.WriteLine("Acesso negado! É necessário ter permissão dos pais");
+//     }
+// }
+
+
+//Estrutura de Controle Switch
+
+Console.WriteLine("Digite um número de 1 a 7 para representar um dia da semana:");
+string input = Console.ReadLine();
+
+switch (input)
+{
+    case "1":
+        Console.WriteLine("Domingo");
+        break;
+    case "2":
+        Console.WriteLine("Segunda-feira");
+        break;
+    case "3":
+        Console.WriteLine("Terça-feira");
+        break;
+    case "4":
+        Console.WriteLine("Quarta-feira");
+        break;
+    case "5":
+        Console.WriteLine("Quinta-feira");
+        break;
+    case "6":
+        Console.WriteLine("Sexta-feira");
+        break;
+    case "7":
+        Console.WriteLine("Sábado");
+        break;
+    default:
+        Console.WriteLine("Número inválido! Por favor, digite um número de 1 a 7.");
+        break;
 }
-else if(idade>=18){
-    Console.WriteLine("Acesso permitido!");
-}
-else{
-    if(permissaoPais){
-        Console.WriteLine("Acesso permitido com permissão dos pais.");
-    }
-    else{
-        Console.WriteLine("Acesso negado! É necessário ter permissão dos pais");
-    }
-}
-
-
 
 
