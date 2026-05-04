@@ -12,3 +12,4 @@ C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\refint\training_cSh
 C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.pdb
 C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.genruntimeconfig.cache
 C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\ref\training_cSharp.dll
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.sourcelink.json
