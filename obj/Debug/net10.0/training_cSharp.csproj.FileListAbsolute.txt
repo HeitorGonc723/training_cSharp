@@ -1,0 +1,14 @@
+C:\Users\heito\training_C#\training_cSharp\bin\Debug\net10.0\training_cSharp.exe
+C:\Users\heito\training_C#\training_cSharp\bin\Debug\net10.0\training_cSharp.deps.json
+C:\Users\heito\training_C#\training_cSharp\bin\Debug\net10.0\training_cSharp.runtimeconfig.json
+C:\Users\heito\training_C#\training_cSharp\bin\Debug\net10.0\training_cSharp.dll
+C:\Users\heito\training_C#\training_cSharp\bin\Debug\net10.0\training_cSharp.pdb
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.AssemblyInfoInputs.cache
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.AssemblyInfo.cs
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.csproj.CoreCompileInputs.cache
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.dll
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\refint\training_cSharp.dll
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.pdb
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\training_cSharp.genruntimeconfig.cache
+C:\Users\heito\training_C#\training_cSharp\obj\Debug\net10.0\ref\training_cSharp.dll
