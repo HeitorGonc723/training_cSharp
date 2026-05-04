@@ -73,23 +73,48 @@
 
 //Operadores Lógicos
 
-bool emailValido =  false;
-bool senhaValida = true;
+// bool emailValido =  false;
+// bool senhaValida = true;
 
-bool acessoPermitido = emailValido && senhaValida;
+// bool acessoPermitido = emailValido && senhaValida;
 
-Console.WriteLine("Acesso permitido? {0}", acessoPermitido);
+// Console.WriteLine("Acesso permitido? {0}", acessoPermitido);
 
-bool emailValido2 =  false;
-bool senhaValida2=  true;
+// bool emailValido2 =  false;
+// bool senhaValida2=  true;
 
-bool acessoPermitido2 = emailValido2 || senhaValida2;
+// bool acessoPermitido2 = emailValido2 || senhaValida2;
 
-Console.WriteLine("Acesso permitido? {0}", acessoPermitido2);
+// Console.WriteLine("Acesso permitido? {0}", acessoPermitido2);
 
-bool emailValido3 =  false;
-bool senhaValida3=  true;
+// bool emailValido3 =  false;
+// bool senhaValida3=  true;
 
-bool acessoPermitido3 = !emailValido3 && senhaValida3;
+// bool acessoPermitido3 = !emailValido3 && senhaValida3;
 
-Console.WriteLine("Acesso permitido? {0}", acessoPermitido3);
+// Console.WriteLine("Acesso permitido? {0}", acessoPermitido3);
+
+
+//Estruturas de Controle
+
+int idade = 7;
+bool permissaoPais = true;
+
+if(idade==0){
+    Console.WriteLine("Idade inválida!");
+}
+else if(idade>=18){
+    Console.WriteLine("Acesso permitido!");
+}
+else{
+    if(permissaoPais){
+        Console.WriteLine("Acesso permitido com permissão dos pais.");
+    }
+    else{
+        Console.WriteLine("Acesso negado! É necessário ter permissão dos pais");
+    }
+}
+
+
+
+
