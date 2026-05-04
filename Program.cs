@@ -36,37 +36,60 @@
 // Console.WriteLine("Resultado: {0}", a);
 
 //Operadores de Comparação
-int a = 5;
-int b = 5;
+// int a = 5;
+// int b = 5;
 
-bool Iguais= a == b;
+// bool Iguais= a == b;
 
-Console.WriteLine("São iguais? {0}", Iguais);
+// Console.WriteLine("São iguais? {0}", Iguais);
 
-int c = 5;
-int d = 4;
+// int c = 5;
+// int d = 4;
 
-bool Iguais2= c == d;
+// bool Iguais2= c == d;
 
-Console.WriteLine("São iguais? {0}", Iguais2);
+// Console.WriteLine("São iguais? {0}", Iguais2);
 
-int e = 5;
-int f = 4;
+// int e = 5;
+// int f = 4;
 
-bool maior = e > f;
+// bool maior = e > f;
 
-Console.WriteLine("E é maior que F? {0}", maior);
+// Console.WriteLine("E é maior que F? {0}", maior);
 
-int g = 5;
-int h = 4;
+// int g = 5;
+// int h = 4;
 
-bool menor = g < h;
+// bool menor = g < h;
 
-Console.WriteLine("G é menor que H? {0}", menor);
+// Console.WriteLine("G é menor que H? {0}", menor);
 
-int i = 5;
-int j = 4;
+// int i = 5;
+// int j = 4;
 
-bool diferente = i != j;
+// bool diferente = i != j;
 
-Console.WriteLine("I é diferente de J? {0}", diferente);
+// Console.WriteLine("I é diferente de J? {0}", diferente);
+
+//Operadores Lógicos
+
+bool emailValido =  false;
+bool senhaValida = true;
+
+bool acessoPermitido = emailValido && senhaValida;
+
+Console.WriteLine("Acesso permitido? {0}", acessoPermitido);
+
+bool emailValido2 =  false;
+bool senhaValida2=  true;
+
+bool acessoPermitido2 = emailValido2 || senhaValida2;
+
+Console.WriteLine("Acesso permitido? {0}", acessoPermitido2);
+
+bool emailValido3 =  false;
+bool senhaValida3=  true;
+
+bool acessoPermitido3 = !emailValido3 && senhaValida3;
+
+Console.WriteLine("Acesso permitido? {0}", acessoPermitido3);
